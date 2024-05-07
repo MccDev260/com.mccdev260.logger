@@ -1,0 +1,21 @@
+{
+  "name": "com.mccdev260.logger",
+  "version": "1.0.0",
+  "displayName": "Text Logger",
+  "description": "Configurable lightweight text file logger that records basic performance info such as play session length, system spec and FPS data.\nCan be used in both the editor and builds.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "performance",
+    "text file",
+    "logger",
+    "text",
+    "fps",
+    "builds"
+  ],
+  "author": {
+    "name": "MccDev260",
+    "email": "mccducky23@gmail.com",
+    "url": "https://github.com/MccDev260"
+  }
+}
