@@ -1,7 +1,5 @@
 using System;
 using System.IO;
-using UnityEditor.PackageManager;
-using UnityEditor.VersionControl;
 using UnityEngine;
 
 namespace MccDev260.Logger
@@ -146,7 +144,7 @@ namespace MccDev260.Logger
             if (!isEditor && generateConfigJsonInBuild)
                 ConfigJson(rootPath);
 
-            logFilePath = LogFilePath(logFolderPath); 
+            logFilePath = CreateLogFilePath(logFolderPath); 
         }
 
         /// <summary>
@@ -154,7 +152,7 @@ namespace MccDev260.Logger
         /// </summary>
         /// <param name="outputPath"></param>
         /// <returns></returns>
-        private string LogFilePath(string outputPath)
+        private string CreateLogFilePath(string outputPath)
         {
             string partialLogPath;
             if (includeNoteInFileName)
