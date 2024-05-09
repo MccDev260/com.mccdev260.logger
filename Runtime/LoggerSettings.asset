@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ecf0639e628ce4cab255246bb9572d, type: 3}
   m_Name: LoggerSettings
   m_EditorClassIdentifier: 
-  recordInEditor: 0
+  recordInEditor: 1

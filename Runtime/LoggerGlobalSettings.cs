@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "LoggerSettings", menuName = "MccDev260/LoggerSettings", order = 100)]
